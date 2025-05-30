@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
@@ -84,68 +83,64 @@ const CaseStudy = ({ isOpen, onClose }: CaseStudyProps) => {
                 <CardTitle className="text-xl">Key Features</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-3">
-                      <div className="bg-blue-500 p-2 rounded-lg">
-                        <Shield className="h-5 w-5 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-gray-900">Blockchain Security</h4>
-                        <p className="text-sm text-gray-600">Immutable evidence storage with cryptographic verification ensuring data integrity and authenticity.</p>
-                      </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="flex flex-col items-center text-center space-y-3 p-4">
+                    <div className="bg-blue-500 p-3 rounded-lg">
+                      <Shield className="h-6 w-6 text-white" />
                     </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <div className="bg-blue-500 p-2 rounded-lg">
-                        <Upload className="h-5 w-5 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-gray-900">Easy Upload</h4>
-                        <p className="text-sm text-gray-600">Drag-and-drop interface supporting multiple file formats with automatic metadata extraction.</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <div className="bg-blue-500 p-2 rounded-lg">
-                        <Search className="h-5 w-5 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-gray-900">Smart Tracking</h4>
-                        <p className="text-sm text-gray-600">Real-time evidence tracking with advanced search capabilities and chain of custody documentation.</p>
-                      </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-2">Blockchain Security</h4>
+                      <p className="text-sm text-gray-600">Immutable evidence storage with cryptographic verification ensuring data integrity and authenticity.</p>
                     </div>
                   </div>
                   
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-3">
-                      <div className="bg-blue-500 p-2 rounded-lg">
-                        <Users className="h-5 w-5 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-gray-900">Team Collaboration</h4>
-                        <p className="text-sm text-gray-600">Role-based access control with audit trails for secure multi-user evidence management.</p>
-                      </div>
+                  <div className="flex flex-col items-center text-center space-y-3 p-4">
+                    <div className="bg-blue-500 p-3 rounded-lg">
+                      <Upload className="h-6 w-6 text-white" />
                     </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <div className="bg-blue-500 p-2 rounded-lg">
-                        <CheckCircle className="h-5 w-5 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-gray-900">Instant Verification</h4>
-                        <p className="text-sm text-gray-600">Immediate evidence verification with tamper-proof certificates and compliance reporting.</p>
-                      </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-2">Easy Upload</h4>
+                      <p className="text-sm text-gray-600">Drag-and-drop interface supporting multiple file formats with automatic metadata extraction.</p>
                     </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <div className="bg-blue-500 p-2 rounded-lg">
-                        <Clock className="h-5 w-5 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-gray-900">Real-time Updates</h4>
-                        <p className="text-sm text-gray-600">Live status updates and notifications throughout the evidence lifecycle process.</p>
-                      </div>
+                  </div>
+                  
+                  <div className="flex flex-col items-center text-center space-y-3 p-4">
+                    <div className="bg-blue-500 p-3 rounded-lg">
+                      <Search className="h-6 w-6 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-2">Smart Tracking</h4>
+                      <p className="text-sm text-gray-600">Real-time evidence tracking with advanced search capabilities and chain of custody documentation.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex flex-col items-center text-center space-y-3 p-4">
+                    <div className="bg-blue-500 p-3 rounded-lg">
+                      <Users className="h-6 w-6 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-2">Team Collaboration</h4>
+                      <p className="text-sm text-gray-600">Role-based access control with audit trails for secure multi-user evidence management.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex flex-col items-center text-center space-y-3 p-4">
+                    <div className="bg-blue-500 p-3 rounded-lg">
+                      <CheckCircle className="h-6 w-6 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-2">Instant Verification</h4>
+                      <p className="text-sm text-gray-600">Immediate evidence verification with tamper-proof certificates and compliance reporting.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex flex-col items-center text-center space-y-3 p-4">
+                    <div className="bg-blue-500 p-3 rounded-lg">
+                      <Clock className="h-6 w-6 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-2">Real-time Updates</h4>
+                      <p className="text-sm text-gray-600">Live status updates and notifications throughout the evidence lifecycle process.</p>
                     </div>
                   </div>
                 </div>
