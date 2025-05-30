@@ -31,32 +31,32 @@ const Header = () => {
     >
       <div className="max-w-6xl mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
-          <h1 className="text-xl font-semibold text-white">
+          <h1 className="text-xl font-heading font-semibold text-white tracking-wide">
             Shaik Mohammed Hussain
           </h1>
           
           <div className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-white/80 hover:text-white transition-colors"
+              className="text-white/90 hover:text-white transition-colors font-medium tracking-wide"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
-              className="text-white/80 hover:text-white transition-colors"
+              className="text-white/90 hover:text-white transition-colors font-medium tracking-wide"
             >
               Projects
             </button>
             <button 
               onClick={() => scrollToSection('resume')}
-              className="text-white/80 hover:text-white transition-colors"
+              className="text-white/90 hover:text-white transition-colors font-medium tracking-wide"
             >
               Resume
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-white/80 hover:text-white transition-colors"
+              className="text-white/90 hover:text-white transition-colors font-medium tracking-wide"
             >
               Contact
             </button>
@@ -64,7 +64,7 @@ const Header = () => {
 
           <Button 
             onClick={() => scrollToSection('contact')}
-            className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-6 py-2 rounded-lg transition-colors border-0"
+            className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white font-medium px-6 py-2 rounded-lg transition-colors border-0 shadow-lg"
           >
             Get in Touch
           </Button>
