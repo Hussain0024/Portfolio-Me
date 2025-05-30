@@ -46,35 +46,34 @@ const CaseStudy = ({ isOpen, onClose }: CaseStudyProps) => {
                 Blockchain Guardian
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                A decentralized threat monitoring platform built to enhance transparency 
-                and security within blockchain networks.
+                A web application designed to provide insights and monitoring 
+                capabilities for blockchain networks with a focus on user-friendly interface.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <Card className="border-0 shadow-sm bg-white/70 backdrop-blur-sm">
                 <CardHeader>
-                  <CardTitle className="text-xl">The Challenge</CardTitle>
+                  <CardTitle className="text-xl">Project Overview</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Blockchain networks face increasing security threats, with limited 
-                    real-time monitoring capabilities. Traditional security solutions 
-                    lack the transparency and decentralization that blockchain 
-                    ecosystems require.
+                    Blockchain Guardian serves as a monitoring dashboard that provides 
+                    users with blockchain network information and insights through 
+                    an intuitive web interface.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="border-0 shadow-sm bg-white/70 backdrop-blur-sm">
                 <CardHeader>
-                  <CardTitle className="text-xl">The Solution</CardTitle>
+                  <CardTitle className="text-xl">Development Focus</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Blockchain Guardian provides a decentralized monitoring platform 
-                    that leverages smart contracts and distributed computing to 
-                    detect, analyze, and respond to security threats in real-time.
+                    Built with modern web technologies, focusing on responsive design, 
+                    clean user interface, and efficient data presentation for 
+                    blockchain-related information.
                   </p>
                 </CardContent>
               </Card>
@@ -90,15 +89,15 @@ const CaseStudy = ({ isOpen, onClose }: CaseStudyProps) => {
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-purple-500 rounded-full mt-2"></div>
                       <div>
-                        <h4 className="font-medium text-gray-900">Real-time Monitoring</h4>
-                        <p className="text-sm text-gray-600">Continuous blockchain network surveillance</p>
+                        <h4 className="font-medium text-gray-900">Dashboard Interface</h4>
+                        <p className="text-sm text-gray-600">Clean and intuitive user interface</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-cyan-500 rounded-full mt-2"></div>
                       <div>
-                        <h4 className="font-medium text-gray-900">Threat Detection</h4>
-                        <p className="text-sm text-gray-600">AI-powered anomaly detection algorithms</p>
+                        <h4 className="font-medium text-gray-900">Responsive Design</h4>
+                        <p className="text-sm text-gray-600">Works seamlessly across devices</p>
                       </div>
                     </div>
                   </div>
@@ -106,15 +105,15 @@ const CaseStudy = ({ isOpen, onClose }: CaseStudyProps) => {
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2"></div>
                       <div>
-                        <h4 className="font-medium text-gray-900">Decentralized Architecture</h4>
-                        <p className="text-sm text-gray-600">Distributed nodes for enhanced security</p>
+                        <h4 className="font-medium text-gray-900">Modern Architecture</h4>
+                        <p className="text-sm text-gray-600">Built with React and TypeScript</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-violet-500 rounded-full mt-2"></div>
                       <div>
-                        <h4 className="font-medium text-gray-900">Smart Contracts</h4>
-                        <p className="text-sm text-gray-600">Automated response mechanisms</p>
+                        <h4 className="font-medium text-gray-900">Data Visualization</h4>
+                        <p className="text-sm text-gray-600">Clear presentation of blockchain data</p>
                       </div>
                     </div>
                   </div>
@@ -128,7 +127,7 @@ const CaseStudy = ({ isOpen, onClose }: CaseStudyProps) => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {['React', 'TypeScript', 'Blockchain', 'Smart Contracts', 'Web3', 'Solidity', 'Node.js', 'MongoDB'].map((tech, index) => (
+                  {['React', 'TypeScript', 'CSS3', 'HTML5', 'JavaScript', 'Web3 Concepts'].map((tech, index) => (
                     <span 
                       key={index}
                       className="bg-gradient-to-r from-purple-100 to-cyan-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium"
@@ -142,21 +141,21 @@ const CaseStudy = ({ isOpen, onClose }: CaseStudyProps) => {
 
             <Card className="border-0 shadow-sm bg-white/70 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-xl">Results & Impact</CardTitle>
+                <CardTitle className="text-xl">Development Highlights</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-600 mb-2">99.9%</div>
-                    <p className="text-sm text-gray-600">Threat Detection Accuracy</p>
+                    <div className="text-3xl font-bold text-purple-600 mb-2">100%</div>
+                    <p className="text-sm text-gray-600">Responsive Design</p>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-cyan-600 mb-2">&lt;100ms</div>
-                    <p className="text-sm text-gray-600">Response Time</p>
+                    <div className="text-3xl font-bold text-cyan-600 mb-2">Clean</div>
+                    <p className="text-sm text-gray-600">User Interface</p>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-indigo-600 mb-2">24/7</div>
-                    <p className="text-sm text-gray-600">Continuous Monitoring</p>
+                    <div className="text-3xl font-bold text-indigo-600 mb-2">Modern</div>
+                    <p className="text-sm text-gray-600">Tech Stack</p>
                   </div>
                 </div>
               </CardContent>
