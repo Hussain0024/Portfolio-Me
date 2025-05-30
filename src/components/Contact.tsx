@@ -7,14 +7,14 @@ const Contact = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <section id="contact" className="py-20 px-6 bg-white">
+    <section id="contact" className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
-          <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-light text-white mb-4 text-center">
             Let's Connect
           </h2>
           
-          <p className="text-lg text-gray-600 text-center mb-16 max-w-2xl mx-auto">
+          <p className="text-lg text-white/80 text-center mb-16 max-w-2xl mx-auto">
             I'm always interested in discussing new opportunities, 
             interesting projects, or just having a chat about technology.
           </p>
@@ -23,7 +23,7 @@ const Contact = () => {
             <Button 
               asChild
               size="lg"
-              className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 border-0"
             >
               <a href="mailto:your.email@example.com">
                 Get in Touch
@@ -37,10 +37,10 @@ const Contact = () => {
               variant="outline" 
               size="sm"
               asChild
-              className="hover:bg-gray-900 hover:text-white transition-colors"
+              className="bg-white/10 border-white/20 text-white hover:bg-white/20 transition-colors"
             >
               <a 
-                href="https://github.com" 
+                href="https://github.com/Hussain0024" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center"
@@ -54,10 +54,10 @@ const Contact = () => {
               variant="outline" 
               size="sm"
               asChild
-              className="hover:bg-gray-900 hover:text-white transition-colors"
+              className="bg-white/10 border-white/20 text-white hover:bg-white/20 transition-colors"
             >
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/shaikmohammedhussain/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center"
@@ -71,12 +71,12 @@ const Contact = () => {
       </div>
       
       {/* Footer */}
-      <footer className="border-t border-gray-100 pt-12">
+      <footer className="border-t border-white/10 pt-12">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gray-500 text-sm">
+          <p className="text-white/60 text-sm">
             © {currentYear} Shaik Mohammed Hussain. Built with passion and attention to detail.
           </p>
-          <p className="text-gray-400 text-xs mt-2">
+          <p className="text-white/40 text-xs mt-2">
             Simple. Scalable. Smart.
           </p>
         </div>
