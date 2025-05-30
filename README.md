@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+# Portfolio-Me
 
-## Project info
+Welcome to **Portfolio-Me** – a modern and responsive developer portfolio website, designed to showcase your skills, projects, and professional journey in style.
 
-**URL**: https://lovable.dev/projects/f3808439-ba96-4d4a-8600-b541462e90f4
+🌐 **Live Demo:**  
+[myfolio-p5ygg31fa-hussain0024s-projects.vercel.app](https://myfolio-p5ygg31fa-hussain0024s-projects.vercel.app/)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **Sleek and Responsive Design**: Built to look great on any device.
+- **Dynamic Project Sections**: Effortlessly display your best work.
+- **About Me & Skills**: Present your background, expertise, and unique strengths.
+- **Contact Form**: Make it easy for visitors and collaborators to reach out.
+- **Fast & Modern Stack**: Powered by [React](https://reactjs.org/) and [Vite](https://vitejs.dev/) for a blazing-fast experience.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f3808439-ba96-4d4a-8600-b541462e90f4) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Technologies Used
 
-**Use your preferred IDE**
+- **Frontend:** React, Vite
+- **UI Components:** Radix UI, Tailwind CSS
+- **State/Utility:** React Context, React Hooks
+- **Deployment:** Vercel
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Getting Started
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js (v14 or higher recommended)
+- npm or yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+git clone https://github.com/Hussain0024/Portfolio-Me.git
+cd Portfolio-Me
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Development
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Visit `http://localhost:5173` (or the port shown in your terminal) to view your site locally.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📁 Project Structure
 
-This project is built with:
+- `src/` – All React components, assets, and styles
+- `public/` – Static assets
+- `package.json` – Project dependencies and scripts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## ⚡ Customization
 
-Simply open [Lovable](https://lovable.dev/projects/f3808439-ba96-4d4a-8600-b541462e90f4) and click on Share -> Publish.
+Feel free to fork this repository and personalize:
+- Your information in the **About Me** section
+- Project listings in **Projects**
+- Social links and contact details
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📬 Contact
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Want to connect or have feedback? Reach out via the contact form on the site or open an issue/PR!
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📜 License
+
+This project is open-sourced under the MIT License.
+
+---
+
+> Made with ❤️ by Hussain0024
