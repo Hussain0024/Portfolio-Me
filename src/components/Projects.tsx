@@ -7,17 +7,33 @@ import CaseStudy from './CaseStudy';
 
 const Projects = () => {
   const [isCaseStudyOpen, setIsCaseStudyOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState<string>('');
 
   const projects = [
     {
+      id: 'blockchain-guardian',
       title: "Blockchain Guardian",
       description: "A decentralized threat monitoring platform built to enhance transparency and security within blockchain networks.",
       link: "https://blockchain-guardian.vercel.app/",
       technologies: ["React", "Blockchain", "Security", "Monitoring"],
       status: "Live",
       hasCaseStudy: true
+    },
+    {
+      id: 'vocab-arena',
+      title: "Vocab Arena",
+      description: "An interactive vocabulary learning platform with gamified challenges, progress tracking, and competitive elements to make language learning engaging and effective.",
+      link: "https://vocab-arena-ace-up.vercel.app/",
+      technologies: ["React", "TypeScript", "Gamification", "Education"],
+      status: "Live",
+      hasCaseStudy: true
     }
   ];
+
+  const handleCaseStudyOpen = (projectId: string) => {
+    setSelectedProject(projectId);
+    setIsCaseStudyOpen(true);
+  };
 
   return (
     <>
@@ -85,7 +101,7 @@ const Projects = () => {
                       
                       {project.hasCaseStudy && (
                         <Button 
-                          onClick={() => setIsCaseStudyOpen(true)}
+                          onClick={() => handleCaseStudyOpen(project.id)}
                           variant="outline" 
                           size="sm"
                           className="bg-purple-500/20 border-purple-400/30 text-purple-200 hover:bg-purple-500/30 transition-colors"
@@ -115,7 +131,8 @@ const Projects = () => {
 
       <CaseStudy 
         isOpen={isCaseStudyOpen} 
-        onClose={() => setIsCaseStudyOpen(false)} 
+        onClose={() => setIsCaseStudyOpen(false)}
+        projectId={selectedProject}
       />
     </>
   );
