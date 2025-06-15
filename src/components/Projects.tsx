@@ -53,7 +53,7 @@ const Projects = () => {
               {projects.map((project, index) => (
                 <Card 
                   key={index} 
-                  className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:scale-105 bg-white/10 backdrop-blur-md border border-white/20"
+                  className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:scale-105 bg-white/10 backdrop-blur-md border border-white/20 flex flex-col"
                 >
                   <CardHeader className="pb-4">
                     <div className="flex items-center justify-between mb-2">
@@ -69,7 +69,7 @@ const Projects = () => {
                     </CardDescription>
                   </CardHeader>
                   
-                  <CardContent className="pt-0">
+                  <CardContent className="pt-0 flex flex-col flex-1">
                     <div className="flex flex-wrap gap-2 mb-6">
                       {project.technologies.map((tech, techIndex) => (
                         <span 
@@ -81,7 +81,7 @@ const Projects = () => {
                       ))}
                     </div>
                     
-                    <div className="flex gap-3">
+                    <div className="flex gap-3 mt-auto">
                       <Button 
                         asChild
                         variant="outline" 
