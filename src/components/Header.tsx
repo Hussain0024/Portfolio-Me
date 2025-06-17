@@ -21,6 +21,10 @@ const Header = () => {
     }
   };
 
+  const handleResumeClick = () => {
+    window.open('/resume', '_blank');
+  };
+
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -49,7 +53,7 @@ const Header = () => {
               Projects
             </button>
             <button 
-              onClick={() => scrollToSection('resume')}
+              onClick={handleResumeClick}
               className="text-white/90 hover:text-white transition-colors font-medium tracking-wide"
             >
               Resume

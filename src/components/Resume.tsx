@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { ArrowDown } from 'lucide-react';
+import { FileText } from 'lucide-react';
 
 const Resume = () => {
   const skills = [
@@ -19,22 +18,21 @@ const Resume = () => {
           </h2>
           
           <p className="text-lg text-white/80 text-center mb-16 max-w-2xl mx-auto">
-            Download my complete resume or view a summary of my skills and experience below.
+            View my complete resume or see a summary of my skills and experience below.
           </p>
           
           <div className="text-center mb-12">
             <Button 
+              asChild
               size="lg"
               className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 border-0"
-              onClick={() => {
-                // This will be implemented when resume file is uploaded
-                console.log('Resume download - file to be uploaded');
-              }}
             >
-              Download Resume
-              <ArrowDown className="ml-2 h-4 w-4" />
+              <a href="/resume" target="_blank" rel="noopener noreferrer">
+                View Resume
+                <FileText className="ml-2 h-4 w-4" />
+              </a>
             </Button>
-            <p className="text-sm text-white/60 mt-2">PDF format, updated recently</p>
+            <p className="text-sm text-white/60 mt-2">Opens in new tab</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
