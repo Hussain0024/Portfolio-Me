@@ -25,7 +25,7 @@ const Contact = () => {
               size="lg"
               className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 border-0"
             >
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:smhussain0904@gmail.com">
                 Get in Touch
                 <ArrowUp className="ml-2 h-4 w-4 rotate-45" />
               </a>
